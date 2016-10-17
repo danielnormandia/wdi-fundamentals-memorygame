@@ -19,3 +19,18 @@ if (cardTwo === cardFour) {
 }else  {										//(cardThree === cardFour)
 	alert('You found a match!');
 }
+
+var createCards = function(gameBoard) {
+	
+}
+
+
+var gameBoard = document.getElementById('game-board');
+	for (var i =0; i < 4; i++) {
+		var newDiv = document.createElement('div').className = 'card';
+	}	document.getElementsByClassName('game-board').appendChild(gameBoard);
+
+	
+
+	
+
